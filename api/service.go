@@ -4,7 +4,6 @@ import (
 	"log"
 	"time"
 
-	_ "github.com/go-sql-driver/mysql"
 )
 
 type IMyService interface {

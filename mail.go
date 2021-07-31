@@ -18,7 +18,6 @@ import (
 func init() {
 	log.Println("init")
 	log.SetFlags(log.Ldate | log.Lmicroseconds | log.Llongfile)
-
 }
 
 func connectMysql() *sql.DB {
